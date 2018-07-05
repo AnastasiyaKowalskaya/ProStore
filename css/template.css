@@ -1,0 +1,49 @@
+﻿body {
+  font-family: 'Wendy+One', sans-serif;
+}
+
+.d-none {
+  display: none;
+}
+.d-table-row {
+  display: table-row;
+}
+
+.btn {
+  display: flex!important;
+  flex-grow: 1!important;
+}
+
+.btn > div, .btn > span {
+  margin: auto!important;
+}
+
+.row .form-group:first-child {
+  flex: 1 1 auto;
+}
+
+.row clr-icon {
+  flex: 0 0 auto;
+}
+
+clr-icon {
+  align-self: center;
+}
+
+clr-icon:hover {
+  cursor: pointer;
+}
+
+.feedback {
+  position: absolute;
+  display: none;
+  width: 100%;
+  margin-top: 0;
+  font-size: 80%;
+  padding-left: 1rem;
+}
+
+a:hover {
+  text-decoration: none!important;
+  outline: none!important;
+}
